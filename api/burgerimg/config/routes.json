@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/burgerimg",
+      "handler": "burgerimg.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/burgerimg",
+      "handler": "burgerimg.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/burgerimg",
+      "handler": "burgerimg.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
